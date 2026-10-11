@@ -1,0 +1,16 @@
+{
+  "name": "azure-browser-llm",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@azure/msal-node": "6.0.1"
+  }
+}
